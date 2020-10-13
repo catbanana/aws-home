@@ -4,3 +4,6 @@
 [submodule "javaboid"]
 	path = javaboid
 	url = https://github.com/catbanana/javaboid
+[submodule "mash"]
+	path = mosh
+	url = https://github.com/mobile-shell/mosh
