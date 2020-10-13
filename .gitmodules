@@ -1,3 +1,6 @@
 [submodule "sodabobby"]
 	path = sodabobby
 	url = https://github.com/catbanana/sodabobby
+[submodule "javaboid"]
+	path = javaboid
+	url = https://github.com/catbanana/javaboid
