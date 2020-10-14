@@ -1,450 +1,3 @@
-ls
-sudo ytum update
-sudo yum update
-sudo yum install nginx
-sudo amazon-linux-extras install nginx1
-ls
-service nginx status
-sudo service nginx start
-service nginx status
-cd /usr/share/nginx
-ls
-vim ./html/index.html 
-cd
-vim /etc/ginx/nginx.conf
-vim /etc/nginx/nginx.conf
-ls /usr/share/nginx/html
-vim /usr/share/nginx/html
-ls
-mkdir website
-ls
-cd ..
-ls
-echo #pwd
-echo $PWD
-cd ec2-user/
-echo $PWD
-vim /etc/nginx/nginx.conf
-sudo vim /etc/nginx/nginx.conf
-service nginx restart
-sudo service nginx restart
-vim website/index.html
-sudo service nginx restart
-vim website/index.html
-sudo service nginx restart
-sudo service nginx status
-ls
-cd website
-<html>
-    <head>
-    </head>
-    <body>
-    </body>
-vim ./index.html 
-vim /etc/nginx/nginx.conf
-sudo vim /etc/nginx/nginx.conf
-ls /usr/share/nginx
-ls /usr/share/nginx/html
-sudo vim /etc/nginx/nginx.conf
-sudo service nginx restart
-sudo cp /usr/share/nginx/html/index.html /usr/share/nginx/html/index.html.old; sudo vim /usr/share/nginx/html/index.html
-sudo yum install git
-cd ..
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-ls .*
-cd .vim
-ls
-cd ..
-vim
-touch .vimrc
-vim ./vimrc
-vim
-cp ./vimrc .vimrc
-ls
-rm vimrc 
-vim
-cat .vimrc
-vim .vimrc
-vim
-vim .vimrc
-rm .vimrc
-vim
-curl https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim .vim/pathogen.vim
-clear
-curl --help
-curl https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim --output .vim/pathogen.vim
-mkdir .vim/autoload
-ls
-rm $MYVIMRC
-ls
- -Rf $MYVIMRC
-ls
-rm '$MYVIMRC'
-ls
-cd .vim
-ls
-mv pathogen.vim autoload
-cd ..
-vim .vimrc
-vim
-git clone https://github.com/ap/vim-css-color.git ./.vim/bundle
-cd .vim
-cd bundle
-git clone https://github.com/ap/vim-css-color.git
-cd ..
-vim /usr/share/nginx/html/index.html
-vim /usr/share/nginx/html/color.css
-sudo vim /usr/share/nginx/html/color.css
-sudo chmod ugo+rwx /usr/share/nginx/html
-vim /usr/share/nginx/html/color.css
-sudo ln -s .vimrc /root/.vimrc
-sudo vim /usr/share/nginx/html/color.css
-cat /root/.vimrc
-sudo cat /root/.vimrc
-rm /root/.vimrc
-sudo rm /root/.vimrc
-cat .vimrc
-sudo ln -s ./.vimrc /root/.vimrc
-ls -l /root/.vimrc
-sudo ls -l /root/.vimrc
-
-sudo rm /root/.vimrc
-sudo D5~ln -s ./.vimrc /root/.vimrc
-sudo mv .vimrc /root/.vimrc
-sudo ln -s /root/.vimrc ./.vimrc
-cat .vimrc
-vim
-ls
-sudo vim /usr/share/nginx/html/color.css 
-sudo mv .vim /root/.vim
-sudo vim /usr/share/nginx/html/color.css 
-sudo ln -s /root/.vim ./.vim
-ls .vim
-sudo chmod 777 ./.vim
-sudo chmod 777 .vimrc
-sudo chmod -R 777 .vimrc
-sudo chmod -R 777 ./.vim
-vim /usr/share/nginx/html/color.css
-ls
-ls .*
-ls
-ls -a
-ls --help
-ls 
-exit
-yum install mosh
-sudo yum install mosh
-yum add 
-sudo yum add
-vim ./autogen.sh
-sudo chmod +x ./autogen.sh 
-./autogen.sh 
-sudo ./autogen.sh 
-sudo su
-exit
-ls
-vim
-ls
-cd website
-ls
-vim index.html
-ls
-cd ..
-ls
-cd /usr/share/nginx/html/index.html
-vim /usr/share/nginx/html/index.html
-exit
-sudo yum install tmux
-git
-tmux
-sudo vim /root/.tmux.conf
-sudo ln -s /root/.tmux.conf ./.tmux.conf
-ls -l
-ls -l .*
-sudo chown .tmux.conf
-sudo chown ec2-user .tmux.conf
-sudo chown ec2-user .vimrc
-sudo chown -R ec2-user .vim
-ls -l
-ls -l .*
-sudo chown ec2-user .vimrc
-ls -l .*
-sudo chown ec2-user ./.vimrc
-ls -l .*
-vim color.css
-ls
-cd website
-ls
-exit
-tmux
-exit
-sudo vim /usr/share/nginx/html/color.css
-tmux
-sudo su
-tmux -2
-vim .tmux.conf 
-sudo vim .tmux.conf 
-sudo tmux
-echo $TERM
-cd /etc
-ls
-cat DIR_COLORS
-sudo su
-vim .bashrc
-cd
-vim .bashrc
-source ~/.bashrc
-exit
-vim /usr/share/nginx/html/color.css 
-exit
-vim .bashrc
-ls
-sudo chown -h ec2-user ./.vimrc
-ls -l
-ls -l .*
-sudo chown -Rh ec2-user ./.vim
-ls -l ./.*
-sudo chown -Rh ec2-user ./.tmux.conf
-tmux
-exit
-vim ./.bashrc
-vim ./.vimrc
-vim /usr/share/nginx/html/color.css 
-:q!
-ls
-rm .vimrc
-rm -Rf ./.vim
-rm .tmux.conf
-ls
-ls -l .*
-sudo cp -Rf /root/.vim ./
-sudo cp -Rf /root/.vimrc ./
-sudo cp -Rf /root/.tmux.conf ./
-sudo chown -R ec2-user .vim .vimrc .tmux.conf
-ls -l .*
-ls .vim*
-vim /usr/share/nginx/html/color.css 
-ls
-tree
-sudo yum install tree
-sudo yum install stow
-ls
-mkdir -p stow/vim stow/tmux
-ls stow
-touch stow/vim/.vimrc
-mkdir stow/vim/.vim
-sudo su
-exit
-ls
-sudo su
-exit
-sudo yum update
-exit
-ls
-exit
-yum groupinstall 'Development Tools'
-sudo yum groupinstall 'Development Tools'
-sudo yum install protobuf-devel protobuf-compiler
-sudo yum install ncurses-devel
-sudo yum install -y openssl-devel
-cls
-ls
-git clone https://github.com/mobile-shell/mosh
-cd mosh
-./autogen.sh 
-./configure
-make
-sudo make install
-sudo su
-ls
-cd ..
-mosh-server 
-exit
-kill 16763
-exit
-mosh-server status
-mosh-server 
-start mosh-server
-git config --global credential.helper store
-git clone https://github.com
-git clone https://github.com/github.com/catbanana/javaboid
-git clone https://github.com/catbanana/javaboid
-ls
-cd javaboid/
-ls
-vim
-ls
-cd ..
-ls
-git clone https://github.com/catbanana/sodabobby
-cd sodabobby/
-stow vim
-cd ..
-cd stow
-stow --help
-stow -D vim
-ls
-cd ..
-rm -Rf stow
-ls
-rm -Rf .vim*
-ls
-cd sodabobby/
-stow vim
-cd ..
-vim
-ls
-vim .vimrc
-rm .vimrc
-vim .vimrc
-rm -Rf .vim
-cd sodabobby/
-stow vim
-cd ..
-ls
-vim .vimrc
-cd sodabobby/
-git pull master origin
-git pull
-cd vim
-ls
-vim .vimrc
-cd ..
-git pull
-vim ../.vimrc
-ls
-stow vim
-cd ..
-vim .vimrc
-cd .vim
-ls
-cd bundle
-ls
-cd landscape
-cd landscape.vim
-ls
-exit
-vim
-exit
-pip install websockets
-pip
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-ls
-python get-pip.py 
-pip
-pip install websockets
-pip update
-pip --help
-pip install websockets
-sudo pip install websockets
-sudo su
-sudo apt-get update
-apt install python3
-sudo apt install python3
-yum
-yum --help
-yum search python3
-yum install python3
-sudo yum install python3
-pip install websockets
-python3
-python3 ./get-pip.py 
-pip-3
-pip-3 install websockets
-vim
-ls
-tmux
-ls
-vim
-vim .vimrc
-vim
-cd .vim/
-ls
-cd bundle
-ls
-exit
-vim ./.bash_history
-exit
-ls
-cat autogen.sh 
-cd sodabobby
-ls
-cd vim
-ls
-cd ..
-git clone https://github.com/catbanana/sodabobby
-rm -Rf sodabobby/
-git clone https://github.com/catbanana/sodabobby
-cd sodabobby/
-ls
-cd vim
-ls
-ls .vim
-cp -Rf ./.vim ~/
-cd ..
-cd .
-cd ..
-ls
-stow
-ls -a .vim
-ls -l
-ls -l ./.vim
-ls -l .vim*
-cat .vimrc
-vim
-cd .vim
-ls
-cd bundle
-ls
-cd landscape.vim/
-ls
-exit
-ls
-vim
-ls
-cd sodabobby/
-git pull
-git remove
-git delete
-git --help
-git rm .vim
-git rm -r .vim
-cat .git
-cat .gitmodules 
-git commit -m "figuring out submodules stille"
-git push
-cd vim
-ls
-cd .vim
-ls
-cd bundle
-ls
-git submodule add http://github.com/VundleVim/Vundle.Vim
-ls
-ls Vundle.Vim/
-ls
-rm Vundle.Vim/
-rm -Rf Vundle.Vim/
-git submodule add http://github.com/VundleVim/Vundle.Vim ./vundle.vim
-git commit -m "submodule vundle added"
-git push
-git config --global user.name "catbanana"
-git config --global user.e-mail robjcolson@gmail.com
-git config --global credential.helper store
-git pull
-git push
-git pull
-ls
-cd command-t/
-ls
-cd ..
-git push
-git commit -m "up-to-date"
-git push
-git commit
-git rm Vundle.Vim
-git commit
-git commit -m "stuff"
 git push
 ls
 git pull
@@ -819,4 +372,129 @@ vim ./async_websocket.py
 python3.7 ./async_websocket.py 
 vim .vimrc
 vim async_websocket.py 
+exit
+ls
+cd /mnt/c/users/user/downloads
+ls
+cd dgit
+./dgit
+echo $PATH
+mv dgit* ~/
+cd
+ls
+dgit
+cat .bashrc
+ls
+echo $PATH | grep ~/
+export PATH=$PATH:~/
+dgit
+dgit init
+mv /mnt/c/Users/user/Downloads/tupelo-0.7.3 ./
+ls
+cd tupelo-0.7.3/
+ls
+./ scripts
+ls
+cd ./scripts/
+ls
+./test-suite.sh 
+make
+sudo apt install make
+./test-suite.sh 
+ls
+./ci-gitsetup.sh 
+cat ./ci-gitsetup.sh 
+cd ..
+ls
+cat README.md 
+cd ..
+ls
+git dg init
+git ./dgit init
+dgit ./ init
+dgit dg init
+ls
+git clone https://github.com/quorumcontrol/dgit.git
+git clone https://github.com/quorumcontrol/dgit.git dentragit
+dgit init
+rm dgit
+rm ./dgit-Linux-x86_64.tar.gz 
+ls
+rm -Rf tupelo-0.7.3/
+ls
+cp connect.sh ../
+zip connect.sh
+cp connect.sh /mnt/c
+cp mosh-login.sh /mnt/c
+cp Worker-Bee.pem /mnt/c
+rm -Rf *
+ls
+git clone https://github.com/catbanana/aws-home
+ls
+rm -Rf aws-home/
+rm -Rf aws-home/ ./
+rm -Rf aws-home/ ~/
+rm -Rf aws-home/
+git clone https://github.com/catbanana/aws-home ~/
+ls
+ls .*
+rm -Rf .cpan .git .landscape .local .quicklisp/ .tmux .wownero
+mv .ssh /mnt/c
+git clone https://github.com/catbanana/aws-home ~/
+alias dgit='git --git-dir ~/.dotfile/.git --work-tree=$HOME'
+dgit clone https://github.com/catbanana/aws-home ~/
+sudo cd ../
+sudo su
+ls
+ls -a
+ls -la
+sudo su
+ls
+rm -Rf *
+sudos u
+sudo su
+git clone https://github.com/catbanana/aws-home
+mv aws-home/* ./
+rmdir aws-home/
+rmdir aws-home/.* ./
+mv aws-home/.* ./
+ls
+cat .bash
+cat .bashrc 
+rm -Rf aws-home/
+git pull
+dgit pull
+git push
+git status
+git submodule init
+git submodule update
+ls -la
+mv /mnt/c/*.sh ./
+ls /mnt/c
+mv /mnt/c/Worker-Bee.pem ./
+ls .ssh
+cat .ssh/known_hosts 
+cat /mnt/c/.ssh/known_hosts 
+cat /mnt/c/.ssh/known_hosts >> ./.ssh/known_hosts 
+exit
+ls
+./mosh-login.sh 
+exit
+cd
+ls
+tmux
+exit
+vim
+ls
+ls
+git submodule sync
+cd sodabobby/
+git submodule update
+git submodule init
+git submodule update
+cd ..
+ls
+vim
+ls
+exit
 exit
