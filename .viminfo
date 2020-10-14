@@ -11,12 +11,14 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q1
+|2,0,1602643570,,"q1"
+:w
+|2,0,1602642823,,"w"
 :q!
 |2,0,1602641260,,"q!"
 :q
 |2,0,1602641142,,"q"
-:w
-|2,0,1602641134,,"w"
 :!python3.7 %
 |2,0,1602640647,,"!python3.7 %"
 :Copen %
@@ -47,44 +49,69 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
+	ws.send('{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD","XRP/USD"]}')
+|3,0,1,1,1,0,1602642606,"ws.send('{\"event\":\"subscribe\", \"subscription\":{\"name\":\"trade\"}, \"pair\":[\"XBT/USD\",\"XRP/USD\"]}')"
+"2	LINE	0
+	ws.send('{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD","XRP/USD"]}')
+|3,0,2,1,1,0,1602642605,"ws.send('{\"event\":\"subscribe\", \"subscription\":{\"name\":\"trade\"}, \"pair\":[\"XBT/USD\",\"XRP/USD\"]}')"
+"3	LINE	0
+	ws.send('{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD","XRP/USD"]}')
+|3,0,3,1,1,0,1602642604,"ws.send('{\"event\":\"subscribe\", \"subscription\":{\"name\":\"trade\"}, \"pair\":[\"XBT/USD\",\"XRP/USD\"]}')"
+"4	LINE	0
+	ws.send('{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD","XRP/USD"]}')
+|3,0,4,1,1,0,1602642596,"ws.send('{\"event\":\"subscribe\", \"subscription\":{\"name\":\"trade\"}, \"pair\":[\"XBT/USD\",\"XRP/USD\"]}')"
+"5	LINE	0
 	ls .*cd .vim
 	ls
-|3,1,1,1,2,0,1602455842,"ls .*cd .vim","ls"
-"2	CHAR	0
+|3,0,5,1,2,0,1602455842,"ls .*cd .vim","ls"
+"6	CHAR	0
 	
 	
-|3,0,2,0,2,0,1602455841,"",""
+|3,0,6,0,2,0,1602455841,"",""
+""-	CHAR	0
+	T
+|3,1,36,0,1,0,1602642743,"T"
 
 # File marks:
-'0  2  0  ~/async-kraken.py
-|4,48,2,0,1602641260,"~/async-kraken.py"
-'1  13  0  ~/.vimrc
-|4,49,13,0,1602641142,"~/.vimrc"
+'0  7  119  ~/sync-kraken.py
+|4,48,7,119,1602643570,"~/sync-kraken.py"
+'1  2  0  ~/async-kraken.py
+|4,49,2,0,1602641260,"~/async-kraken.py"
 '2  2  0  ~/async-kraken.py
-|4,50,2,0,1602641120,"~/async-kraken.py"
-'3  5  0  ~/sync-kraken.py
-|4,51,5,0,1602641001,"~/sync-kraken.py"
-'4  23  24  ~/async-kraken.py
-|4,52,23,24,1602640224,"~/async-kraken.py"
-'5  23  24  ~/async-kraken.py
-|4,53,23,24,1602640224,"~/async-kraken.py"
-'6  23  24  ~/async-kraken.py
-|4,54,23,24,1602640224,"~/async-kraken.py"
-'7  23  24  ~/async-kraken.py
-|4,55,23,24,1602640224,"~/async-kraken.py"
-'8  10  23  ~/sync-kraken.py
-|4,56,10,23,1602640163,"~/sync-kraken.py"
-'9  10  23  ~/sync-kraken.py
-|4,57,10,23,1602640163,"~/sync-kraken.py"
+|4,50,2,0,1602641260,"~/async-kraken.py"
+'3  13  0  ~/.vimrc
+|4,51,13,0,1602641142,"~/.vimrc"
+'4  13  0  ~/.vimrc
+|4,52,13,0,1602641142,"~/.vimrc"
+'5  2  0  ~/async-kraken.py
+|4,53,2,0,1602641120,"~/async-kraken.py"
+'6  2  0  ~/async-kraken.py
+|4,54,2,0,1602641120,"~/async-kraken.py"
+'7  5  0  ~/sync-kraken.py
+|4,55,5,0,1602641001,"~/sync-kraken.py"
+'8  5  0  ~/sync-kraken.py
+|4,56,5,0,1602641001,"~/sync-kraken.py"
+'9  23  24  ~/async-kraken.py
+|4,57,23,24,1602640224,"~/async-kraken.py"
 
 # Jumplist (newest first):
+-'  7  119  ~/sync-kraken.py
+|4,39,7,119,1602643570,"~/sync-kraken.py"
+-'  5  0  ~/sync-kraken.py
+|4,39,5,0,1602642586,"~/sync-kraken.py"
+-'  2  0  ~/async-kraken.py
+|4,39,2,0,1602641260,"~/async-kraken.py"
 -'  2  0  ~/async-kraken.py
 |4,39,2,0,1602641260,"~/async-kraken.py"
 -'  13  0  ~/.vimrc
 |4,39,13,0,1602641142,"~/.vimrc"
 -'  13  0  ~/.vimrc
 |4,39,13,0,1602641142,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1602641142,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1602641122,"~/.vimrc"
 -'  10  0  ~/.vimrc
 |4,39,10,0,1602641122,"~/.vimrc"
 -'  10  0  ~/.vimrc
@@ -99,6 +126,8 @@
 |4,39,23,24,1602641006,"~/async-kraken.py"
 -'  23  24  ~/async-kraken.py
 |4,39,23,24,1602641006,"~/async-kraken.py"
+-'  23  24  ~/async-kraken.py
+|4,39,23,24,1602641006,"~/async-kraken.py"
 -'  5  0  ~/sync-kraken.py
 |4,39,5,0,1602641001,"~/sync-kraken.py"
 -'  5  0  ~/sync-kraken.py
@@ -179,6 +208,8 @@
 |4,39,10,8,1602640370,"~/sync-kraken.py"
 -'  10  8  ~/sync-kraken.py
 |4,39,10,8,1602640370,"~/sync-kraken.py"
+-'  10  8  ~/sync-kraken.py
+|4,39,10,8,1602640370,"~/sync-kraken.py"
 -'  23  24  ~/async-kraken.py
 |4,39,23,24,1602640224,"~/async-kraken.py"
 -'  23  24  ~/async-kraken.py
@@ -265,22 +296,19 @@
 |4,39,10,23,1602640163,"~/sync-kraken.py"
 -'  10  23  ~/sync-kraken.py
 |4,39,10,23,1602640163,"~/sync-kraken.py"
--'  10  23  ~/sync-kraken.py
-|4,39,10,23,1602640163,"~/sync-kraken.py"
--'  10  23  ~/sync-kraken.py
-|4,39,10,23,1602640163,"~/sync-kraken.py"
--'  10  23  ~/sync-kraken.py
-|4,39,10,23,1602640163,"~/sync-kraken.py"
--'  10  23  ~/sync-kraken.py
-|4,39,10,23,1602640163,"~/sync-kraken.py"
--'  10  23  ~/sync-kraken.py
-|4,39,10,23,1602640163,"~/sync-kraken.py"
--'  1  0  ~/sync-kraken.py
-|4,39,1,0,1602639572,"~/sync-kraken.py"
--'  1  0  ~/sync-kraken.py
-|4,39,1,0,1602639572,"~/sync-kraken.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/sync-kraken.py
+	*	1602642823	0
+	"	7	119
+	^	7	120
+	.	7	119
+	+	10	23
+	+	6	0
+	+	7	0
+	+	8	0
+	+	7	119
 
 > ~/async-kraken.py
 	*	1602641159	0
@@ -302,13 +330,6 @@
 	+	4	10
 	+	10	0
 	+	12	0
-
-> ~/sync-kraken.py
-	*	1602640685	0
-	"	5	0
-	^	10	24
-	.	10	23
-	+	10	23
 
 > ~/.bashrc
 	*	1602637854	0
