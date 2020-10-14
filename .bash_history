@@ -671,3 +671,131 @@ exit
 ls
 >>>>>>> Stashed changes
 exit
+ls
+cd websocket-client/
+ls
+python async_websocket.py 
+python synchro-websocket.py 
+ls
+cat async_websocket.py 
+cat synchro-websocket.py 
+chmod +x ./synchro-websocket.py 
+./synchro-websocket.py 
+chmod +x ./async_websocket.py 
+./async_websocket.py 
+python3.7 synchro-websocket.py 
+python3.7 async_websocket.py 
+python ./async_websocket.py 
+python ./synchro-websocket.py 
+ls
+git commit -m "synchro-websocket"
+git push
+cd
+git push
+dgit push
+dgit pull
+git pull
+git push
+dgit push
+dgit pull
+commit -m ".bash_history"
+dgit commit -m ".bash_history"
+dgit pull
+dgit push
+dgit merge
+dgit merge .bash_history 
+dgit rm .bash_history 
+dgit pull
+dgit stash
+dgit add .bash_history
+dgit stash
+dgit commit -m "stuff"
+dgit commit -m "stuff
+
+"
+dgit pull
+dgit push
+ls
+dgit stash apply
+dgit stash clear
+dgit push
+dgit commit -m "yeP"
+dgit merge .bash_history
+dgit merge
+dgit merge --no-ff
+ls .bash*
+ls
+dgit commit -m "not yet"
+dgit add .bash_history
+dgit commit -m "merge solve?"
+dgit push
+pip install time
+pip3 install time
+pip-3.7 install time
+python-config
+python3.7 -m pip
+python -m pip install _thread
+python -m pip install time
+python -m pip install websocket
+ls
+cd websocket-client/
+ls
+./async_websocket.py 
+python3.7 ./async_websocket.py 
+python ./async_websocket.py 
+python -m pip install _thread
+python -m pip 
+python -m pip download _thread
+python3.7 -m pip install _thread
+python3.7 -m pip install
+# Import WebSocket client library (and others)
+import websocket
+import _thread
+import time
+# Define WebSocket callback functions
+def ws_message(ws, message):
+    print("WebSocket thread: %s" % message)
+def ws_open(ws):
+    ws.send('{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD","XRP/USD"]}')
+def ws_thread(*args):
+    ws = websocket.WebSocketApp("wss://ws.kraken.com/", on_open = ws_open, on_message = ws_message)
+    ws.run_forever() _thread.start_new_thread(ws_thread, ())
+# Continue other (non WebSocket) tasks in the main thread
+while True:;     time.sleep(5)
+    print("Main thread: %d" % time.time())
+python3.7
+cd ..
+vim async-kraken.py
+python3.7 ./async-kraken.py 
+python3.7 -m pip install websocket
+python3.7 ./async-kraken.py 
+ls
+clear
+python3.7 sync-kraken.py 
+cd sodabobby/vim/.vim/bundle
+ls
+cd tmuxline.vim/
+ls
+cd ..
+cd ~/sodabobby/
+git submodule add https://tpope.io/vim/dispatch.git vim/.vim/bundle/dispatch.vim
+ls vim/.vim/bundle/dispatch.vim/
+source ~/.bashrc
+vim async-kraken.py 
+vim .vimrc
+vim async-kraken.py 
+vim sync-kraken.py
+vim
+vim async-kraken.py 
+vim -u NONE -c "helptags dispatch/doc" -c -q
+ls
+vim sync-kraken.py 
+vim async-kraken.py 
+vim .vimrc
+vim async-kraken.py 
+yum install entr
+ls
+exit
+python3.7 async-kraken.py 
+python3.7
+source ~/.bashrc
