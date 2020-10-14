@@ -373,6 +373,7 @@ python3.7 ./async_websocket.py
 vim .vimrc
 vim async_websocket.py 
 exit
+<<<<<<< Updated upstream
 ls
 cd /mnt/c/users/user/downloads
 ls
@@ -497,4 +498,176 @@ ls
 vim
 ls
 exit
+=======
+rmdir mosh
+rmdir -rf mosh
+rmdir -f mosh
+rmdir --help
+rm -Rf mosh
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+dgit sumodule deinit mosh
+dgit submodule deinit mosh
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+dgit submodule deinit mosh
+cat ./.gitsu
+cat ./.gitsubmodule
+cat ./.gitmodules
+dgit push
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+dgit commit -m "added mosh"
+dgit push
+ls
+ls .git
+cat .gitmodules
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+ls .dotfiles/.git
+ls
+dgit submodule add https://github.com/mobile-shell/mosh
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+dgit rm mosh
+dgit submodule deinit mosh
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+dgit commit -m "mosh add?"
+dgit push
+cd mosh
+ls
+cd ..
+ls
+dgit submodule deinit mosh
+dgit commit -m "unmosh"
+git push
+git add mosh
+dgit push
+ls
+dgit submodule init
+dgit submodule update
+dgit push
+dgit submodule add https://github.com/mobile-shell/mosh mosh
+vim .gittmodules
+cd sodabobby/
+stow vim
+cd ..
+vim ./.gitmodules
+dgit deinit mosh
+dgit submodule init mosh
+dgit submodule deinit mosh
+dgit rm mosh
+dgit commit -m "asda"
+dgit add websocket-client/
+dgit commit -m "added python websockets"
+dgit push
+ls
+dgit submodule add https://github.com/mobile-shell/mosh
+git submodule summary
+dgit submodule summary
+dgit summary
+dgit status
+cd .dotfiles/
+ls
+ls .*
+cd .git
+ls
+ls .*
+cd modules
+ls
+cd sodabobby
+ls
+cd branches
+ls
+cd ..
+ls
+cd ..
+ls
+cat index
+ls
+cat description 
+cat config
+ls
+cd logs
+ls
+cd ..
+ls
+cat .gitignore
+cd ..
+ls
+cat .gitmodules
+cd .vim
+ls
+cd bundle
+ls
+cd landscape.vim/
+ls
+cd ~/sodabobby/
+git submodule init
+git submodule update
+vim
+ls
+cd ..
+ls
+dgit rm mosh
+dgit submodule deinit mosh
+dgit rm mosh
+dgit rm ./mosh
+dgit commit -m ""
+dgit push
+dgit add .bashrc
+dgit add .inputrc
+dgit add .ssh
+dgit add GitHubPersAccTok 
+dgit commit -m "Another commit"
+dgit push
+ls
+dgit add gh_1.1.0_linux_amd64.rpm 
+dgit add website
+dgit commit -m "another commit"
+dgit push
+gh
+dgit submodule list
+dgit submodule summary
+dgit submodule sync
+dgit submodule init https://github.com/mobile-shell/mosh ./mosh
+dgit submodule init ./mosh
+vim .gitmodules
+dgit submodule init ./mosh
+dgit update
+dgit submodule update
+dgit commit -m "submodule done?"
+dgit addd *
+dgit add *
+dgit commit "add everything"
+dgit commit -m "add everything"
+dgit push
+ls
+dgit sync
+dgit status
+dgit add .gitmodules
+dgit .*
+dgit add .*
+dgit add .bash*
+dgit add .conf*
+dgit add .git*
+dgit add .lo*
+dgit add .t*
+dgit add .v*
+dgit add .p*
+dgit commit -m "okay, maybe done"
+dgit push
+dgit submodule update
+dgit submodule init
+dgit submodules init
+dgit submodule init
+dgit submodule update
+ls
+exit
+dgit
+dgit pull
+ls
+git clone https://github.com/quorumcontrol/dgit/releases
+ls
+cd /mnt/c/users/user/downloads
+cat .bashrc
+aliexit
+exit
+ls
+>>>>>>> Stashed changes
 exit
