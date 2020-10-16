@@ -7,3 +7,6 @@
 [submodule "mash"]
 	path = mosh
 	url = https://github.com/mobile-shell/mosh
+[submodule "pykrakenapi"]
+	path = pykrakenapi
+	url = https://github.com/dominiktraxl/pykrakenapi
